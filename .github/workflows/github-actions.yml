@@ -20,9 +20,8 @@ jobs:
         run: |
           make
       - name: Get current dir
-        run: |
-          pwd
+        run: pwd
       - name: Run hello
         run: |
-          hello
+          ./hello
       - run: echo "This job's status is ${{ job.status }}."
