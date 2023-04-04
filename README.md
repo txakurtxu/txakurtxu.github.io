@@ -1,3 +1,5 @@
-# hello-world
-short description<br>
-I have no idea how markdown elements work!
+Test project
+
+Front end
+- gets data from user
+- runs a c app
