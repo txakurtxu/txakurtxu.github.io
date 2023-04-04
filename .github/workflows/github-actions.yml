@@ -19,4 +19,10 @@ jobs:
       - name: Compile hello.c
         run: |
           make
+      - name: Get current dir
+        run: |
+          pwd
+      - name: Run hello
+        run: |
+          hello
       - run: echo "This job's status is ${{ job.status }}."
