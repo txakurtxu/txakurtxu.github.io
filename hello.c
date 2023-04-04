@@ -9,7 +9,7 @@ int main(void)  {
     return 1;
   }
   char ctmp;
-  while(fread(&ctmp,sizeof(char),1,arch))>0)  {
+  while(fread(&ctmp,sizeof(char),1,arch)>0)  {
     printf("%c",ctmp);
   }
   fclose(arch);
